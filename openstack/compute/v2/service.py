@@ -33,7 +33,7 @@ class Service(resource.Resource):
     #: Id of service
     id = resource.Body('id')
     #: Disabled reason of service
-    disables_reason = resource.Body('disabled_reason')
+    disabled_reason = resource.Body('disabled_reason')
     #: Host where service runs
     host = resource.Body('host')
     #: The availability zone of service
